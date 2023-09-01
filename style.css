@@ -93,3 +93,31 @@ main .container .left-text .content {
     font-size: 25px;
     margin-left: -55px;
 }
+main .container .left-text .content button {
+    background-color: orangered;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin-top: 27px;
+    border-radius: 10px;
+}
+main .container .left-text .content #first {
+    margin-top: 45px;
+    padding-left: 30px;
+    font-size: 17px;
+}
+main .container .left-text .content #second {
+    margin-top: 5px;
+    padding-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+main .container .left-text #ima {
+    position: relative;
+    left: -240px;
+    top: -35px;
+    padding-left: 10px;
+}
