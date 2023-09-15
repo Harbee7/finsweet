@@ -136,9 +136,7 @@ main .container .left-text .content #second {
 }
 
 /* second section styling */
-.ash {
-    background-color: #e2e6e9;
-}
+
  #sec {
     /*background-color: #e2e6e9;*/
     background-color: white;
@@ -342,7 +340,7 @@ input {
     place-items: center;
 }
 .container .grid {
-    margin: 40px 20px;
+    margin: 30px 15px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
