@@ -9,7 +9,13 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 5px 10px;
+    position: fixed;
+    z-index: 400;
+    left: 10%;
+    background-color: white;
+    padding: 25px 15px;
+    font-family: 'Mulish', sans-serif;
+
 }
 nav {
     display: flex;
@@ -47,22 +53,24 @@ ul {
 }
 /* main element styling */
 main {
-    width: 80%;
-    height: 93vh;
+    height: 400vh;
+    width: 100%;
     margin: auto;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-main .container {
-    height: 80%;
-    width: 100%;
+ .container {
+    height: 90vh;
+    width: 80%;
     display: flex;
+    /*background-color: goldenrod;*/
 }
 main .container .left-text {
     width: 50%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,7 +88,7 @@ main .container .right-image {
 main .container .right-image .service {
     position: absolute;
     left: -120px;
-    top: -15px;
+    top: 9%;
 }
 main .container .right-image .rating {
     position: absolute;
@@ -90,8 +98,11 @@ main .container .right-image .rating {
 main .container .left-text .content {
     width: 80%;
     height: 70%;
-    font-size: 25px;
+    font-size: 22px;
     margin-left: -55px;
+    margin-top: 65px;
+    font-family: 'Manrope', sans-serif;
+
 }
 main .container .left-text .content button {
     background-color: orangered;
@@ -101,23 +112,269 @@ main .container .left-text .content button {
     font-size: 15px;
     cursor: pointer;
     padding: 15px 30px;
-    margin-top: 27px;
+    margin-top: 45px;
     border-radius: 10px;
 }
+
 main .container .left-text .content #first {
     margin-top: 45px;
-    padding-left: 30px;
+    padding-left: 10px;
+    margin-left: 1px;
     font-size: 17px;
 }
 main .container .left-text .content #second {
     margin-top: 5px;
-    padding-left: 30px;
+    padding-left: 63px;
     font-size: 17px;
     font-weight: bold;
 }
-main .container .left-text #ima {
+.time {
+    position:relative;
+    top: 22px;
+    left: -8px;
+    padding-left: 17px;
+}
+
+/* second section styling */
+.ash {
+    background-color: #e2e6e9;
+}
+ #sec {
+    /*background-color: #e2e6e9;*/
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-text-ii .content-ii {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content:flex-start;
+    font-family: 'Manrope', sans-serif;
+}
+#car {
+    font-size: 45px;
+    font-weight: 1200;
+    margin-top: 45px;
+    padding-left: 15px;
+}
+.give {
+    margin-top: 0;
+    font-size: 17px;
+}
+.take {
+    /*text-indent: 40px;*/
+    margin-top: 5px;
+    padding-left: 51px;
+    line-height: 1.4;
+}
+.imag {
+    margin-top: 15px;
     position: relative;
-    left: -240px;
-    top: -35px;
+    top: 13px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+#last {
+    padding-left: 45px;
+    margin-top: 35px;
+    font-size: 15px;
+}
+#arrow {
+    padding-left: 20px;
+    position: relative;
+    top: 3px;
+}
+.right-side-text .content-iii {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:flex-end;
+    position: relative;
+    top: -450px;
+    right: -280px;
+    transform: translate(-5%, -5%);
+}
+.content-iii #quot {
+    font-size: 35px;
+    font-family: 'Manrope', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+ .content-iii .white-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: -150px;
+    margin-top: 50px;
+    width: 100%;
+}
+input {
+    width: 70%;
+    box-sizing: border-box;
+    border: none;
+    height: 60px;
+    margin-top: 2px;
+    padding-left: 30px;
+    font-family: 'Manrope', sans-serif;
+}
+    
+.btn {
+    background-color: orangered;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding-right: 39px;
+    padding-left: 39px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 55px;
+    margin-right: 360px;
+    border-radius: 10px; 
+}
+.white {
+    background-color: white;
+}
+ .container .left-text-iii .content-iv {
+    width: 35vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+}
+.container .right-side-text-iii .content-v {
+    width: 45vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}
+.content-iv #child-i {
+    font-size: 45px;
+    margin-left: 5px;
+    position: relative;
+    top: 2%;
+}
+.content-iv #child-ii {
+    padding-right: 50px;
+    margin-left: 5px;
+    position: relative;
+    top: 5%;
+}
+.btns {
+    background-color: orangered;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding-right: 39px;
+    padding-left: 39px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 90px;
+    margin-bottom: 5px;
+    margin-right: 320px;
+    border-radius: 10px; 
+}
+.content-v .third-sec {
+    font-size: 25px;
+    position: relative;
+    bottom: -10%;
+    left: 15%;
+}
+.content-v .third-p {
+    position: relative;
+    bottom: -12%;
+    left: 15%;
+    margin-top: -55px;
+    margin-left: 63px;
+    padding-right:290px;
+}
+#last-p {
+    margin-top: 2px;
+}
+.new-img {
+    margin-top: 25px;
+    position: relative;
+    top: 20%;
+    margin-right: 5px;
+}
+
+.line {
+    position: relative;
+    left: -17%;
+    top: 55%;
+}
+/* we offer full service section */
+    
+.parent-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+.parent-flex .center {
+    width: 100%;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+.parent-flex .container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.container .grid {
+    margin: 40px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.container .grid .box {
+    background-color: white;
+    height: 200px;
+    width: 247px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box #space {
+    margin-top: 12px;
+}
+ #red {
+    background-color: orangered;
+    color:white;
+}
+.container #learn {
+    display: flex;
+    position: relative;
+    bottom: 100%;
+    left: 230%;
+}
+#learn .arr {
     padding-left: 10px;
+}
+/*Get in touch with us section */
+
+.cont .container {
+     width: 100%;
 }
