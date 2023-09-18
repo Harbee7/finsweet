@@ -53,7 +53,7 @@ ul {
 }
 /* main element styling */
 main {
-    height: 400vh;
+    height: 500vh;
     width: 100%;
     margin: auto;
     margin-top: 10px;
@@ -373,6 +373,69 @@ input {
 }
 /*Get in touch with us section */
 
-.cont .container {
-     width: 100%;
+.get-in-touch {
+    width: 98vw;
+    height: 82%;
+}
+.get-in-touch .first-row {
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.get-in-touch .first-row .left-white-car {
+    width: 50%;
+    height: 100%;
+    background-image: url('./images/Image\ 1.png');
+    display:flex;
+    justify-content: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get-in-touch .first-row .left-white-car .left-car-card {
+    width: 70%;
+    height: 100%;
+    font-family: 'Manrope', sans-serif;
+    color: whitesmoke;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+}
+.get-in-touch .first-row .left-white-car .left-car-card #black-btn {
+    padding: 17px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 260px;
+
+}
+.get-in-touch .first-row .right-div {
+    width: 50%;
+    height: 100%;
+    background-image: url('./images/right-div-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get-in-touch .second-row {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-in-touch .second-row #content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: 'Manrope', sans-serif;
 }
