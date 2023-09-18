@@ -405,7 +405,7 @@ input {
     padding: 0 30px;
 }
 .get-in-touch .first-row .left-white-car .left-car-card #black-btn {
-    padding: 15px 37px;
+    padding: 20px 40px;
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -413,7 +413,7 @@ input {
     outline: 0;
     cursor: pointer;
     margin-top: 40px;
-    margin-right: 230px;
+    margin-right: 250px;
 
 }
 .get-in-touch .first-row .right-div {
