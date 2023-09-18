@@ -278,10 +278,10 @@ input {
     color: white;
     font-size: 15px;
     cursor: pointer;
-    padding-right: 39px;
-    padding-left: 39px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 90px;
     margin-bottom: 5px;
     margin-right: 320px;
@@ -413,7 +413,7 @@ input {
     outline: 0;
     cursor: pointer;
     margin-top: 40px;
-    margin-right: 250px;
+    margin-right: 260px;
 
 }
 .get-in-touch .first-row .right-div {
