@@ -443,8 +443,13 @@ input {
 /* for mobile */
 
 @media screen and (min-width: 225px) and (max-width: 425px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
     header h1 {
         padding-right: 15px;
+        margin-left: 35%;
     }
      .logo {
         display: flex;
@@ -457,8 +462,8 @@ input {
         margin-left: -10%;
         padding: 10px 10px 5px 2px;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: normal;
+        justify-content: none;
     }
     nav {
         flex-direction: column;
@@ -635,15 +640,31 @@ input {
         margin-top: 40px;
     }
     /* We offer full service section */
+    .parent-flex {
+        height: 100vh;
+        align-items: normal;
+        justify-content: none;
+    }
     .parent-flex .center {
         font-size: 17px;
+        width: 100%;
+        height: 100vh;
+        margin-top: 50px;
+    }
+    .parent-flex .container {
+        place-items: normal;
+    }
+    .container .grid {
+        margin-top: 50%;
+       position: relative;
+       right: 105%;
     }
     .container .grid .box {
         height: 100px;
         width: 150px;
     }
     .container #learn {
-        left: 25%;
+        left: -70%;
     }
     /* Get in touch section */
     .get-in-touch .first-row .left-white-car .left-car-card #black-btn {
